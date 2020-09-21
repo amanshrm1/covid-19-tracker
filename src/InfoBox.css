@@ -1,3 +1,25 @@
+.infoBox_Cases {
+  color: brown;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.infoBox_total {
+  color: azure;
+  font-size: 700;
+  font-size: 1.75rem;
+  margin-topaa: 0.5rem
+}
+
+.infoBox {
+  flex: 1;
+}
+
+.infoBox:not(:last-child){
+  margin-right: 15px;
+}
+
 
 
 

@@ -63,7 +63,8 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div>
+      <div className="App">
       <div className="app__left">
       <div className="app__header">
       <h1>Covid-19 Tracker</h1>
@@ -92,6 +93,10 @@ function App() {
           <Table countries={tableData} />
         </CardContent>
       </Card>
+    </div>
+    <div className='bottomText'>
+    <h4 >Hey I am Aman! Our world is badly effected by this virus. I pray to god that all of u will stay safe and healty. I made this to keep track of this deadly virus handy</h4>
+    </div>
     </div>
   );
 }
