@@ -33,7 +33,9 @@ body {
   text-overflow: ellipsis;
 }
 
-
+.app__Right {
+  align-items: center;
+}
 
 @media (max-width: 990px) {
   .App {

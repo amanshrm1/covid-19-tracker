@@ -51,7 +51,7 @@ function App() {
   const onCountryChange = async (event) => {
     const countryCode = event.target.value
 
-    const url = countryCode === 'worldwide' ? 'https://disease.sh/v3/covid-19/all' : `https://disease.sh/v3/covid-19/countries/${countryCode}`
+    const url = countryCode === 'worldwide' ? 'https://disease.sh/v3/covid-19/all' : `https://disease.sh/v3/covid-19/countries/${countryCode}?strict=true`
   
     await axios.get(url).then( response => {
       console.log(response.data)
@@ -95,9 +95,9 @@ function App() {
       </Card>
     </div>
     <div className='bottomText'>
-    <h4 >Hey I am Aman! Our world is badly effected by this virus. I pray to god that all of u will stay safe and healty. I made this to keep track of this deadly virus handy</h4>
+    <h4>Hey I am Aman! Our world is badly effected by this virus. I pray to God that all of you will stay safe and healthy. I made this to keep track of this deadly virus handy</h4>
     </div>
-    </div>
+   </div>
   );
 }
 
