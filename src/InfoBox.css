@@ -15,6 +15,7 @@
 .infoBox {
   flex: 1;
   box-shadow: grey;
+  text-align: center;
 }
 
 .infoBox:not(:last-child){
