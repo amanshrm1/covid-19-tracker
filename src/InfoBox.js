@@ -9,9 +9,9 @@ function InfoBox({ title, cases, total}) {
         {/* Title: Coronavirus case */}
         <Typography className="infoBox_title" color="textSecondary">{title}</Typography>
         
-        <h2 className="infoBox_Cases">{cases}</h2>
+        <h2 className="infoBox_Cases"><strong>{cases}</strong></h2>
         
-        <Typography className="infoBox_total" color="textSecondary">{total} Total</Typography>
+        <Typography className="infoBox_total" ><strong>{total} Total</strong></Typography>
       </CardContent>
     </Card>
   )
